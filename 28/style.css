@@ -129,6 +129,7 @@ body {
 .explanationdiv {
     width: 80%;
     margin-top: 100px;
+    overflow: hidden;
     text-align: center;
     color: #ffffff;
 }
