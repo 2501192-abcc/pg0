@@ -1,0 +1,158 @@
+body {
+    background-color: #333333;
+    margin: 0;
+}
+#headerdiv {
+    background-color: #000000;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: white;
+    font-size: 1vw;
+}
+#topmenunav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#topmenunav a {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+#topmenunav a:hover {
+    background-color: #333333;
+    color: #ff3366;
+    transition: color 0s;
+}
+#topmenunav a::after {
+    background-color: #ff3366;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    content: '';
+    bottom: -12px;
+    visibility: hidden;
+}
+#topmenunav a:hover::after {
+    visibility: visible;
+}
+.leftsidediv {
+    background-image: url(image/valorant\ banner.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0; top: 65px;
+    text-align: center;
+}
+.rightsidediv{
+    background-image: url(image/valorant\ banner.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0; top: 65px;
+    text-align: center;
+}
+.playvalorant-button {
+    background-color: #ff0033;
+    width: 80%;
+    height: 5%;
+    margin-top: 225%;
+    border: 2px solid #000000;
+    outline: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 0.8vw;
+    transition: background-color 0.5s; color: 0.2s;
+}
+.playvalorant-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.home-maindiv {
+    background-image: url(image/background.png);
+    background-size: cover;
+    width: 75%;
+    margin-top: 60px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+.home-explanationdiv {
+    width: 60%;
+    margin-top: 100px;
+}
+.home-explanationdiv h3 {
+    font-size: 6vw;
+    font-style: italic;
+}
+.home-explanationdiv ul {
+    list-style: none;
+}
+.maindiv {
+    background-image: url(image/mainbackground.png);
+    background-size: contain;
+    width: 75%;
+    margin-top: 60px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.explanationdiv {
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+.explanationdiv h3 {
+    font-size: 6vw;
+    font-style: italic;
+}
+.explanationdiv img {
+    width: 90%;
+    margin-bottom: 50px;
+}
+.explanationdiv iframe {
+    margin-bottom: 50px;
+}
+#footerdiv {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1vw;
+}
+#footerdiv p {
+    margin: 0;
+    color: #cccccc;
+}
